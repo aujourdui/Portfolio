@@ -5,9 +5,8 @@ import HomePage from "../components/HomePage";
 import ProjectPage from "../components/ProjectPage";
 import ProjectOnePage from "../components/ProjectOnePage";
 import ProjectTwoPage from "../components/ProjectTwoPage";
+import ResumePage from "../components/ResumePage";
 import NotFoundPage from "../components/NotFoundPage";
-
-// import { BrowserRouter, Route, Switch, Link, Navlink } from 'react-router-dom';
 
 const AppRouter = () => (
   <BrowserRouter>
@@ -18,6 +17,7 @@ const AppRouter = () => (
         <Route path="/project" component={ProjectPage} exact={true} />
         <Route path="/project/1" component={ProjectOnePage} />
         <Route path="/project/2" component={ProjectTwoPage} />
+        <Route path="/resume" component={ResumePage} />
         <Route component={NotFoundPage} />
       </Switch>
     </div>
