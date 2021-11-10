@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const ResumePage = () => (
   <div className="resume">
@@ -11,21 +10,42 @@ const ResumePage = () => (
       <div>
         <h1>Background</h1>
         <p className="comment">
-          Even though I had been a sales person for 6years, I had a strong
-          interest for web development. So I have a great passion and skills to
-          make web applications and sites to help people more convenient and
-          enrich their lives.
+          I have a strong communication skills because I had been a sales person
+          for 6years. I have a great passion and skills to make web applications
+          and sites to help people more convenient and enrich their lives.
         </p>
       </div>
       <div className="skills">
         <h1>Skills for web-development</h1>
-        <h2>Soft skills</h2>
-        <p>Negociation, presentation, critical thinking problem solving</p>
-        <h2>technical skills</h2>
-        <p>
-          React Node.js Next.js Redux JavaScript TypeScript scss Github firebase
-          MongoDB MySQL Vagrant Heroku Vercel
-        </p>
+        <h2 className="soft-title">Soft skills</h2>
+        <div className="soft-skills">
+          <span>Leadership</span>
+          <span>Collaboration</span>
+          <span>Communication</span>
+          <span>Critical Thinking</span>
+          <span>Creativity</span>
+          <span>Organization Skills</span>
+          <span>Enthusiasm</span>
+          <span>Work Ehic</span>
+          <span>Problem Solving</span>
+        </div>
+        <h2 className="technical-title">Technical skills</h2>
+        <div className="technical-skills">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>Next.js</span>
+          <span>Redux</span>
+          <span>JavaScript</span>
+          <span>TypeScript</span>
+          <span>scss</span>
+          <span>Github</span>
+          <span>firebase</span>
+          <span>MongoDB</span>
+          <span>MySQL</span>
+          <span>Vagrant</span>
+          <span>Heroku</span>
+          <span>Vercel</span>
+        </div>
       </div>
       <div>
         <h1>Education</h1>
@@ -60,22 +80,6 @@ const ResumePage = () => (
             2021)
           </li>
         </ul>
-      </div>
-      <div>
-        <h1>Contact</h1>
-        {/* <div>(236)833-8229</div>
-        <div>kyosuke0215@gmail.com</div> */}
-        <div>
-          <Link to="https://github.com/aujourdui?tab=repositories">Github</Link>
-        </div>
-        <div>
-          <Link to="https://www.linkedin.com/in/kyosuke-ito-506090a8/">
-            Linkdin
-          </Link>
-        </div>
-        <div>
-          <Link to="https://medium.com/@kyosuke0215">Medium</Link>
-        </div>
       </div>
     </div>
   </div>
