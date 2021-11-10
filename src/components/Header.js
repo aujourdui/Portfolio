@@ -15,6 +15,11 @@ const Header = () => (
           Projects
         </NavLink>
       </span>
+      <span className="resume-link">
+        <NavLink to="/resume" activeClassName="is-active" exact={true}>
+          Resume
+        </NavLink>
+      </span>
     </div>
   </header>
 );
