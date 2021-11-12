@@ -6,6 +6,9 @@ import HomePage from "../components/HomePage";
 import ProjectPage from "../components/ProjectPage";
 import ProjectOnePage from "../components/ProjectOnePage";
 import ProjectTwoPage from "../components/ProjectTwoPage";
+import ProjectThreePage from "../components/ProjectThreePage";
+import ProjectFourPage from "../components/ProjectFourPage";
+import ProjectFivePage from "../components/ProjectFivePage";
 import ResumePage from "../components/ResumePage";
 import NotFoundPage from "../components/NotFoundPage";
 
@@ -18,6 +21,9 @@ const AppRouter = () => (
         <Route path="/project" component={ProjectPage} exact={true} />
         <Route path="/project/1" component={ProjectOnePage} />
         <Route path="/project/2" component={ProjectTwoPage} />
+        <Route path="/project/3" component={ProjectThreePage} />
+        <Route path="/project/4" component={ProjectFourPage} />
+        <Route path="/project/5" component={ProjectFivePage} />
         <Route path="/resume" component={ResumePage} />
         <Route component={NotFoundPage} />
       </Switch>

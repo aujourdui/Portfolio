@@ -7,11 +7,23 @@ const ProjectPage = () => (
     <div className="projects">
       <div className="project1">
         <Link to="/project/1">Project1</Link>
-        <p>Cat's lovers community</p>
+        <p>Portfolio</p>
       </div>
       <div className="project2">
         <Link to="/project/2">Project2</Link>
-        <p>Coming soon</p>
+        <p>Cat's Community</p>
+        </div>
+      <div className="project3">
+        <Link to="/project/3">Project3</Link>
+        <p>Game Of Life</p>
+      </div>
+      <div className="project4">
+        <Link to="/project/4">Project4</Link>
+        <p>Weather Project</p>
+      </div>
+      <div className="project5">
+        <Link to="/project/5">Project5</Link>
+        <p>Budget Management</p>
       </div>
     </div>
   </div>
