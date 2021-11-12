@@ -11,8 +11,8 @@ const ProjectPage = () => (
       </div>
       <div className="project2">
         <Link to="/project/2">Project2</Link>
-        <p>Cat's Community</p>
-        </div>
+        <p>Cats' Community</p>
+      </div>
       <div className="project3">
         <Link to="/project/3">Project3</Link>
         <p>Game Of Life</p>
