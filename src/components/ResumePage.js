@@ -37,6 +37,8 @@ const ResumePage = () => (
           <span>Redux</span>
           <span>JavaScript</span>
           <span>TypeScript</span>
+          <span>HTML</span>
+          <span>CSS</span>
           <span>scss</span>
           <span>Github</span>
           <span>firebase</span>

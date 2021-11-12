@@ -1,7 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-// import { Navbar, NavbarBrand, Container } from "reactstrap";
-// import "bootstrap/dist/css/bootstrap.min.css";
 
 const Footer = () => (
   <div className="footer">
@@ -9,15 +6,15 @@ const Footer = () => (
     {/* <div>(236)833-8229</div>
         <div>kyosuke0215@gmail.com</div> */}
     <div>
-      <Link to="https://github.com/aujourdui?tab=repositories">Github</Link>
+      <a href="https://github.com/aujourdui?tab=repositories">Github</a>
     </div>
     <div>
-      <Link to="https://www.linkedin.com/in/kyosuke-ito-506090a8/">
+      <a href="https://www.linkedin.com/in/kyosuke-ito-506090a8/">
         Linkdin
-      </Link>
+      </a>
     </div>
     <div className="bottom-item">
-      <Link to="https://medium.com/@kyosuke0215">Medium</Link>
+      <a href="https://medium.com/@kyosuke0215">Medium</a>
     </div>
   </div>
 );

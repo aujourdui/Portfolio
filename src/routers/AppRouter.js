@@ -4,11 +4,11 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import HomePage from "../components/HomePage";
 import ProjectPage from "../components/ProjectPage";
-import ProjectOnePage from "../components/ProjectOnePage";
-import ProjectTwoPage from "../components/ProjectTwoPage";
-import ProjectThreePage from "../components/ProjectThreePage";
-import ProjectFourPage from "../components/ProjectFourPage";
-import ProjectFivePage from "../components/ProjectFivePage";
+import ProjectOnePage from "../components/projects/ProjectOnePage";
+import ProjectTwoPage from "../components/projects/ProjectTwoPage";
+import ProjectThreePage from "../components/projects/ProjectThreePage";
+import ProjectFourPage from "../components/projects/ProjectFourPage";
+import ProjectFivePage from "../components/projects/ProjectFivePage";
 import ResumePage from "../components/ResumePage";
 import NotFoundPage from "../components/NotFoundPage";
 
