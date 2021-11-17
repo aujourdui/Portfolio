@@ -8,6 +8,7 @@ const ProjectFourPage = () => (
       title="Game Of Life"
       gitTitle="game-of-life"
       article="This app is conway's game app algorithm"
+      technology="JavaScript, heroku"
     />
   </div>
 );
