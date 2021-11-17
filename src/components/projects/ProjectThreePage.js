@@ -5,9 +5,9 @@ const ProjectThreePage = () => (
   <div>
     <ProjectItemPage
       project="Project3"
-      title="Game Of Life"
-      gitTitle="game-of-life"
-      article="This app is conway's game app algorithm"
+      title="WeatherAPI App"
+      gitTitle="weatherAPI-app"
+      article="This app can be searched the current weather by city name"
     />
   </div>
 );

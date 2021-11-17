@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ProjectItemPage from "./projects/ProjectItemPage";
 
 const ProjectPage = () => (
   <div className="project-container">
@@ -15,11 +16,11 @@ const ProjectPage = () => (
       </div>
       <div className="project3">
         <Link to="/project/3">Project3</Link>
-        <p>Game Of Life</p>
+        <p>WeatherAPI App</p>
       </div>
       <div className="project4">
         <Link to="/project/4">Project4</Link>
-        <p>WeatherAPI App</p>
+        <p>Game Of Life</p>
       </div>
       <div className="project5">
         <Link to="/project/5">Project5</Link>
