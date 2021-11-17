@@ -8,6 +8,7 @@ const ProjectTwoPage = () => (
       title="Cats' Community"
       gitTitle="cats-community"
       article="This app is for people who love cats!!"
+      technology="React.js, scss, firebase, MongoDB, socket.io, vercel"
     />
   </div>
 );

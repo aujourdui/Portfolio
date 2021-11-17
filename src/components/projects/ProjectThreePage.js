@@ -8,6 +8,7 @@ const ProjectThreePage = () => (
       title="WeatherAPI App"
       gitTitle="weatherAPI-app"
       article="This app can be searched the current weather by city name"
+      technology="Node.js, Express, heroku"
     />
   </div>
 );
