@@ -5,7 +5,8 @@ const ProjectTwoPage = () => (
   <div>
     <ProjectItemPage
       project="Project2"
-      title="cats-community"
+      title="Cats' Community"
+      gitTitle="cats-community"
       article="This app is for people who love cats!!"
     />
   </div>

@@ -19,7 +19,7 @@ const ProjectPage = () => (
       </div>
       <div className="project4">
         <Link to="/project/4">Project4</Link>
-        <p>Weather Project</p>
+        <p>WeatherAPI App</p>
       </div>
       <div className="project5">
         <Link to="/project/5">Project5</Link>
