@@ -44,6 +44,9 @@ const ResumePage = () => (
           <span>firebase</span>
           <span>MongoDB</span>
           <span>MySQL</span>
+          <span>Webpack</span>
+          <span>Jest</span>
+          <span>Ensyme</span>
           <span>Vagrant</span>
           <span>Heroku</span>
           <span>Vercel</span>
