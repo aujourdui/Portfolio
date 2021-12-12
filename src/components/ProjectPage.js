@@ -22,6 +22,14 @@ const ProjectPage = () => (
         <Link to="/project/4">Project4</Link>
         <p>Game Of Life</p>
       </div>
+      <div className="project5">
+        <Link to="/project/5">Project5</Link>
+        <p>MovieAPI App</p>
+      </div>
+      <div className="project6">
+        <Link to="/project/6">Project6</Link>
+        <p>Country Explorer(Group Project)</p>
+      </div>
       {/* <div className="project5">
         <Link to="/project/5">Project5</Link>
         <p>Budget Management</p>
