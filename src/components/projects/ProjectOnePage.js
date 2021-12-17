@@ -8,7 +8,7 @@ const ProjectOnePage = () => (
       title="Portfolio"
       gitTitle="portfolio"
       article="This site"
-      technology="React.js, scss, heroku"
+      technology="HTML, scss, React.js, firebase"
     />
   </div>
 );
