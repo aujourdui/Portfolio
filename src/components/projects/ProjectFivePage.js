@@ -5,10 +5,10 @@ const ProjectFivePage = () => (
   <div>
     <ProjectItemPage
       project="Project5"
-      title="Budget Management"
-      gitTitle="budget-management"
-      article="This app can be used for budget management in dairy life"
-      technology="React.js, Redux, firebase, heroku"
+      title="MovieAPI app"
+      gitTitle="movieAPI-app"
+      article="This app can be used for searching movies info"
+      technology="HTML, CSS, Javascript, heroku"
     />
   </div>
 );
