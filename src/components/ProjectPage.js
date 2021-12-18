@@ -30,10 +30,6 @@ const ProjectPage = () => (
         <Link to="/project/6">Project6</Link>
         <p>Country Explorer(Group Project)</p>
       </div>
-      {/* <div className="project5">
-        <Link to="/project/5">Project5</Link>
-        <p>Budget Management</p>
-      </div> */}
     </div>
   </div>
 );
