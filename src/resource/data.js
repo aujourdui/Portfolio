@@ -6,6 +6,7 @@ const data = [
     article: "This site",
     technology: "HTML, scss, React.js, firebase",
     appName: "App",
+    imgPath: "portfolio-top.png",
   },
   {
     id: 2,
@@ -15,6 +16,7 @@ const data = [
     technology: "HTML, scss, React.js, firebase, Material UI",
     app: "https://cats-community.firebaseapp.com/",
     appName: "App",
+    imgPath: "cats' community-top.png",
   },
   {
     id: 3,
@@ -24,6 +26,7 @@ const data = [
     technology: "HTML, CSS, Node.js, Express, bootstrap, heroku",
     app: "https://weather-api-app908130.herokuapp.com/",
     appName: "App",
+    imgPath: "weather app-top.png",
   },
   {
     id: 4,
@@ -33,6 +36,7 @@ const data = [
     technology: "HTML, CSS, Javascript, bootstrap, heroku",
     app: "https://movie-api-app930812.herokuapp.com/",
     appName: "App",
+    imgPath: "movie app-top.png",
   },
   {
     id: 5,
@@ -40,6 +44,7 @@ const data = [
     gitTitle: "game-of-life",
     article: "This app is conway's game app algorithm",
     technology: "JavaScript",
+    imgPath: "game of life-world.png",
   },
   {
     id: 6,
@@ -50,6 +55,7 @@ const data = [
     technology: "HTML, CSS, Javascript, Vercel",
     app: "https://country-explorer-mauve.vercel.app/",
     appName: "App",
+    imgPath: "country explorer-top.png",
   },
 ];
 
