@@ -6,11 +6,11 @@ const ProjectItem = ({ data }) => {
   return (
     <div className="project-item">
       {data.map((list) => (
-        <div key={list.id}>
+        <div className="project-item__wrapper" key={list.id}>
           <h4>
             <Link to={`/project/${list.title}`}>{list.title}</Link>
-            <img src={`${baseImgPath}${list.imgPath}`} alt="Project" />
           </h4>
+          <img src={`${baseImgPath}${list.imgPath}`} alt="Project" />
         </div>
       ))}
     </div>
