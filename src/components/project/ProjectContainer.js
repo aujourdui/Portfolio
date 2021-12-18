@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import ProjectItem from "./projects/ProjectItem";
+import ProjectItem from "./ProjectItem";
 
 const ProjectContainer = ({ data }) => (
   <div className="project-container">
