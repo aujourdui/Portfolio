@@ -7,8 +7,11 @@ const ProjectSixPage = () => (
       project="Project6"
       title="Country Explorer"
       gitTitle="country-explorer"
-      article="This app can be searched country info"
+      article="This app is for searching any country info
+      (my role: darkmode, detail info as modal)"
       technology="HTML, CSS, Javascript, Vercel"
+      app="https://country-explorer-mauve.vercel.app/"
+      appName="App"
     />
   </div>
 );

@@ -7,8 +7,10 @@ const ProjectFivePage = () => (
       project="Project5"
       title="MovieAPI app"
       gitTitle="movieAPI-app"
-      article="This app can be used for searching movies info"
-      technology="HTML, CSS, Javascript, heroku"
+      article="This app is for searching movies info"
+      technology="HTML, CSS, Javascript, bootstrap, heroku"
+      app="https://movie-api-app930812.herokuapp.com/"
+      appName="App"
     />
   </div>
 );

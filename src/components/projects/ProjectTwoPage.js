@@ -7,8 +7,10 @@ const ProjectTwoPage = () => (
       project="Project2"
       title="Cats' Community"
       gitTitle="cats-community"
-      article="This app is for people who love cats!!"
+      article="This app is for people loving cats"
       technology="HTML, scss, React.js, firebase, Material UI"
+      app="https://cats-community.firebaseapp.com/"
+      appName="App"
     />
   </div>
 );

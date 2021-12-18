@@ -9,6 +9,8 @@ const ProjectOnePage = () => (
       gitTitle="portfolio"
       article="This site"
       technology="HTML, scss, React.js, firebase"
+      // app=""
+      appName="App"
     />
   </div>
 );
