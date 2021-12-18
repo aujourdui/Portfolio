@@ -1,13 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-const ProjectDetailPage = ({ data }) => {
+const ProjectDetail = ({ data }) => {
   const { title } = useParams();
   return (
     <div>
       <div>
         {data
-          .filter((list) => list.title == title)
+          .filter((list) => list.title === title)
           .map((list) => (
             <div key={list.id}>
               <h2>Title: {list.title}</h2>
@@ -18,4 +18,4 @@ const ProjectDetailPage = ({ data }) => {
   );
 };
 
-export default ProjectDetailPage;
+export default ProjectDetail;

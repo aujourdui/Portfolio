@@ -7,7 +7,7 @@ const ProjectItem = ({ data }) => {
       {data.map((list) => (
         <div key={list.id}>
           <h4>
-            Title: <Link to={`/project/${list.title}`}>{list.title}</Link>
+            title: <Link to={`/project/${list.title}`}>{list.title}</Link>
           </h4>
         </div>
       ))}
