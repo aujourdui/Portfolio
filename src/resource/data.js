@@ -8,3 +8,5 @@ const data = [
     title: "WeatherAPIApp",
   },
 ];
+
+export default data;

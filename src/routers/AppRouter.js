@@ -7,19 +7,9 @@ import ProjectContainer from "../components/ProjectContainer";
 import ProjectDetail from "../components/projects/ProjectDetail";
 import ResumePage from "../components/ResumePage";
 import NotFoundPage from "../components/NotFoundPage";
+import data from "../resource/data";
 
 const AppRouter = () => {
-  const data = [
-    {
-      id: 1,
-      title: "Cats'Community",
-    },
-    {
-      id: 2,
-      title: "WeatherAPIApp",
-    },
-  ];
-
   return (
     <BrowserRouter>
       <div>
