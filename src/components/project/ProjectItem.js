@@ -7,10 +7,10 @@ const ProjectItem = ({ data }) => {
     <div className="project-item">
       {data.map((list) => (
         <div className="project-item__wrapper" key={list.id}>
-          <h4>
-            <Link to={`/project/${list.title}`}>{list.title}</Link>
-          </h4>
-          <img src={`${baseImgPath}${list.imgPath}`} alt="Project" />
+          <Link className="project-link__wrapper" to={`/project/${list.title}`}>
+            {list.title}
+            <img src={`${baseImgPath}${list.imgPath}`} alt="Project" />
+          </Link>
         </div>
       ))}
     </div>
