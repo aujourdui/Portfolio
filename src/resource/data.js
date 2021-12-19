@@ -7,6 +7,7 @@ const data = [
     technology: "HTML, scss, React.js, firebase",
     appName: "App",
     imgPath: "portfolio-top.png",
+    imgDetailPath: "portfolio-top-detail.png",
   },
   {
     id: 2,
