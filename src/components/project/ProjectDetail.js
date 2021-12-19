@@ -14,6 +14,7 @@ const ProjectDetail = ({ data }) => {
             <div className="projectDetail__wrapper" key={list.id}>
               <h1 className="project__content">{list.title}</h1>
               <h2 className="project__content">{list.article}</h2>
+              <h3 className="project__content">{list.addInfo}</h3>
               <img src={`${baseImgPath}${list.imgDetailPath}`} alt="Project" />
               <p className="project__content">Technology: {list.technology}</p>
               <div className="detailLink__wrapper">
