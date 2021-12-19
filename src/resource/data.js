@@ -18,6 +18,7 @@ const data = [
     app: "https://cats-community.firebaseapp.com/",
     appName: "App",
     imgPath: "cats' community-top.png",
+    imgDetailPath: "cats' community-top-detail.png",
   },
   {
     id: 3,
@@ -28,6 +29,7 @@ const data = [
     app: "https://weather-api-app908130.herokuapp.com/",
     appName: "App",
     imgPath: "weather app-top.png",
+    imgDetailPath: "weather app-top-detail.png",
   },
   {
     id: 4,
@@ -38,6 +40,7 @@ const data = [
     app: "https://movie-api-app930812.herokuapp.com/",
     appName: "App",
     imgPath: "movie app-top.png",
+    imgDetailPath: "movie app-top-detail.png",
   },
   {
     id: 5,
@@ -46,17 +49,19 @@ const data = [
     article: "This app is conway's game app algorithm",
     technology: "JavaScript",
     imgPath: "game of life-world.png",
+    imgDetailPath: "game of life-world-detail.png",
   },
   {
     id: 6,
     title: "Country Explorer(group project)",
     gitTitle: "country-explorer",
-    article:
-      "This app is for searching any country info(my role: darkmode, detail info as modal)",
+    article: "This app is for searching any country info",
+    addInfo: "my role: darkmode, detail info as modal",
     technology: "HTML, CSS, Javascript, Vercel",
     app: "https://country-explorer-mauve.vercel.app/",
     appName: "App",
     imgPath: "country explorer-top.png",
+    imgDetailPath: "country explorer-top-detail.png",
   },
 ];
 
