@@ -46,18 +46,21 @@ const ProjectDetail = ({ data }) => {
                   <img
                     src={`${baseImgPath}${list.imgDetailPathA}`}
                     alt="Project"
+                    className="slide-image"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     src={`${baseImgPath}${list.imgDetailPathB}`}
                     alt="Project"
+                    className="slide-image"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     src={`${baseImgPath}${list.imgDetailPathC}`}
                     alt="Project"
+                    className="slide-image"
                   />
                 </SwiperSlide>
               </Swiper>

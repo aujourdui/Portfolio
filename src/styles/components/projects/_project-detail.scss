@@ -36,6 +36,32 @@
   }
 }
 
+@media (max-width: 45rem) {
+  .slide-image {
+    width: 90%;
+    height: 90%;
+  }
+  .projectDetail__wrapper {
+    padding: 8rem 0;
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+    h3 {
+      font-size: 2rem;
+    }
+    p,
+    a {
+      font-size: 2rem;
+    }
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
 .detailLink__wrapper {
   display: flex;
   justify-content: center;
