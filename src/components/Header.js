@@ -24,11 +24,6 @@ const Header = () => (
           Resume
         </NavLink>
       </span>
-      <span className="resume-link">
-        <NavLink to="/slider" activeClassName="is-active" exact={true}>
-          Slider
-        </NavLink>
-      </span>
     </div>
   </header>
 );

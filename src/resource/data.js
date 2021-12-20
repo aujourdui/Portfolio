@@ -7,7 +7,9 @@ const data = [
     technology: "HTML, scss, React.js, firebase",
     appName: "App",
     imgPath: "portfolio-top.png",
-    imgDetailPath: "portfolio-top-detail.png",
+    imgDetailPathA: "portfolio-top-detail.png",
+    imgDetailPathB: "portfolio-projects-detail.png",
+    imgDetailPathC: "portfolio-resume-detail.png",
   },
   {
     id: 2,
@@ -18,7 +20,9 @@ const data = [
     app: "https://cats-community.firebaseapp.com/",
     appName: "App",
     imgPath: "cats' community-top.png",
-    imgDetailPath: "cats' community-top-detail.png",
+    imgDetailPathA: "cats' community-top-detail.png",
+    imgDetailPathB: "cats' community-login-detail.png",
+    imgDetailPathC: "cats' community-chat-detail.png",
   },
   {
     id: 3,
@@ -29,7 +33,9 @@ const data = [
     app: "https://weather-api-app908130.herokuapp.com/",
     appName: "App",
     imgPath: "weather app-top.png",
-    imgDetailPath: "weather app-top-detail.png",
+    imgDetailPathA: "weather app-top-detail.png",
+    imgDetailPathB: "weather app-search-detail.png",
+    imgDetailPathC: "weather app-daily-detail.png",
   },
   {
     id: 4,
@@ -40,7 +46,9 @@ const data = [
     app: "https://movie-api-app930812.herokuapp.com/",
     appName: "App",
     imgPath: "movie app-top.png",
-    imgDetailPath: "movie app-top-detail.png",
+    imgDetailPathA: "movie app-top-detail.png",
+    imgDetailPathB: "movie app-hover-detail.png",
+    imgDetailPathC: "movie app-detailpage-detail.png",
   },
   {
     id: 5,
@@ -49,7 +57,9 @@ const data = [
     article: "This app is conway's game app algorithm",
     technology: "JavaScript",
     imgPath: "game of life-world.png",
-    imgDetailPath: "game of life-world-detail.png",
+    imgDetailPathA: "game of life-world-detail.png",
+    imgDetailPathB: "game of life-random.png",
+    imgDetailPathC: "game of life-world-detail.png",
   },
   {
     id: 6,
@@ -61,7 +71,9 @@ const data = [
     app: "https://country-explorer-mauve.vercel.app/",
     appName: "App",
     imgPath: "country explorer-top.png",
-    imgDetailPath: "country explorer-top-detail.png",
+    imgDetailPathA: "country explorer-top-detail.png",
+    imgDetailPathB: "country explorer-dark-detail.png",
+    imgDetailPathC: "country explorer-detailpage-detail.png",
   },
 ];
 

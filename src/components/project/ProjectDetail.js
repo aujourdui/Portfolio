@@ -5,15 +5,16 @@ import { useParams } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.scss";
-// import "swiper/swiper.min.css";
 
 import "swiper/components/navigation/navigation.scss";
 import "swiper/components/pagination/pagination.scss";
+import "swiper/components/effect-flip/effect-flip.scss";
+import "swiper/components/scrollbar/scrollbar.scss";
 
-import SwiperCore, { Navigation, Pagination } from "swiper";
+import SwiperCore, { EffectFlip, Navigation, Pagination } from "swiper";
 
 // install Swiper modules
-SwiperCore.use([Navigation, Pagination]);
+SwiperCore.use([EffectFlip, Navigation, Pagination]);
 
 const ProjectDetail = ({ data }) => {
   const { title } = useParams();
@@ -32,26 +33,30 @@ const ProjectDetail = ({ data }) => {
               <Swiper
                 spaceBetween={0}
                 slidesPerView={1}
+                speed={500}
                 loop={true}
+                touchRatio={1.5}
+                grabCursor={true}
                 navigation={true}
+                effect={"flip"}
                 pagination={{ clickable: true }}
                 className="mySwiper"
               >
                 <SwiperSlide>
                   <img
-                    src={`${baseImgPath}${list.imgDetailPath}`}
+                    src={`${baseImgPath}${list.imgDetailPathA}`}
                     alt="Project"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src={`${baseImgPath}${list.imgDetailPath}`}
+                    src={`${baseImgPath}${list.imgDetailPathB}`}
                     alt="Project"
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src={`${baseImgPath}${list.imgDetailPath}`}
+                    src={`${baseImgPath}${list.imgDetailPathC}`}
                     alt="Project"
                   />
                 </SwiperSlide>
