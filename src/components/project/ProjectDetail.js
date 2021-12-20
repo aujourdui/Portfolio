@@ -65,10 +65,15 @@ const ProjectDetail = ({ data }) => {
               <p className="project__content">Technology: {list.technology}</p>
               <div className="detailLink__wrapper">
                 <div className="project__content">
-                  <a href={`${linkPathCode}${list.gitTitle}`}>Code</a>
+                  <a href={`${linkPathCode}${list.gitTitle}`}>
+                    <i class="fas fa-code"></i>Code
+                  </a>
                 </div>
                 <div className="project__content">
-                  <a href={list.app}>{list.appName}</a>
+                  <a href={list.app}>
+                    <i class="fas fa-desktop"></i>
+                    {list.appName}
+                  </a>
                 </div>
               </div>
               <div className="backButton__container">
