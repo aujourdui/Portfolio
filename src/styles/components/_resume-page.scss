@@ -1,5 +1,6 @@
 .resume {
   margin: 0 0 0 3%;
+  display: flex;
   h1,
   h2 {
     margin: 20px 0 10px 0;
@@ -7,24 +8,19 @@
   p {
     margin: 0;
   }
+  li {
+    margin: 1rem 0;
+  }
 }
 
-.background-container {
-  width: 70%;
-  margin: 0 0 15rem 0;
+@media (max-width: 45rem) {
+  .resume {
+    display: block;
+  }
 }
 
-// .skills {
-//   span {
-//     padding: 5px;
-//     margin: 5px;
-//     display: inline-block;
-//     background-color: #b9b7bd;
-//     opacity: 0.7;
-//   }
-// }
-li {
-  margin: 1rem 0;
+.background-container-first {
+  width: 50vw;
 }
 
 .soft-title {
@@ -47,6 +43,7 @@ li {
 }
 
 .technical-skills {
+  margin-bottom: 3rem;
   span {
     padding: 5px;
     margin: 5px;
