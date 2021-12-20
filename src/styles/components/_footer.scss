@@ -16,11 +16,11 @@
 }
 
 .footer-contact {
-  margin: 0.5rem 2rem;
+  margin: 0.3rem 2rem;
 }
 
 #footer-email {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .footerLink__wrapper {
@@ -29,6 +29,9 @@
 
 .footer-link {
   margin: 0 0.3rem;
+  a {
+    margin: 0 0.5rem;
+  }
 }
 
 .bottom-item {
