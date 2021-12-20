@@ -9,13 +9,19 @@ const Footer = () => (
     </div>
     <div className="footerLink__wrapper">
       <div className="footer-link">
-        <a href="https://github.com/aujourdui?tab=repositories">Github</a>
+        <a href="https://github.com/aujourdui?tab=repositories">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
       </div>
       <div className="footer-link">
-        <a href="https://www.linkedin.com/in/kyosuke-ito-506090a8/">Linkdin</a>
+        <a href="https://www.linkedin.com/in/kyosuke-ito-506090a8/">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
       </div>
       <div className="bottom-item footer-link">
-        <a href="https://medium.com/@kyosuke0215">Medium</a>
+        <a href="https://medium.com/@kyosuke0215">
+          <i class="fab fa-medium fa-2x"></i>
+        </a>
       </div>
     </div>
   </div>
