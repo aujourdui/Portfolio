@@ -1,12 +1,11 @@
 .header {
   position: sticky;
   top: 0;
-  width: 100%;
   height: 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0 0 3%;
+  padding: 0 3%;
   background-color: #bacc81;
   z-index: 12;
 }
@@ -18,17 +17,17 @@ a {
 }
 
 .header-links {
-  padding: 0 10%;
+  padding: 0 3%;
 }
 
 .home-link {
-  margin: 0 5%;
+  margin: 0 7%;
 }
 
 .project-link {
-  margin: 0 5%;
+  margin: 0 7%;
 }
 
 .resume-link {
-  margin: 0 0 0 5%;
+  margin: 0 0 0 7%;
 }
