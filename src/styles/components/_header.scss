@@ -31,3 +31,21 @@ a {
 .resume-link {
   margin: 0 0 0 7%;
 }
+
+@media (max-width: 45rem) {
+  .header-links {
+    padding: 0;
+    margin: 0 2rem;
+  }
+  .home-link {
+    margin: 0;
+    padding-right: 7%;
+  }
+  .project-link {
+    margin: 0;
+    padding-right: 7%;
+  }
+  .resume-link {
+    margin: 0;
+  }
+}
