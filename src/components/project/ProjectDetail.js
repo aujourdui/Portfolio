@@ -1,6 +1,6 @@
 // import React, { useRef, useState } from "react";
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
@@ -70,6 +70,11 @@ const ProjectDetail = ({ data }) => {
                 <div className="project__content">
                   <a href={list.app}>{list.appName}</a>
                 </div>
+              </div>
+              <div className="backButton__container">
+                <Link to="/project">
+                  <span className="back-button">back</span>
+                </Link>
               </div>
             </div>
           ))}
