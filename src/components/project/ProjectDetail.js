@@ -1,5 +1,19 @@
+// import React, { useRef, useState } from "react";
 import React from "react";
 import { useParams } from "react-router-dom";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.scss";
+// import "swiper/swiper.min.css";
+
+import "swiper/components/navigation/navigation.scss";
+import "swiper/components/pagination/pagination.scss";
+
+import SwiperCore, { Navigation, Pagination } from "swiper";
+
+// install Swiper modules
+SwiperCore.use([Navigation, Pagination]);
 
 const ProjectDetail = ({ data }) => {
   const { title } = useParams();
@@ -15,7 +29,34 @@ const ProjectDetail = ({ data }) => {
               <h1 className="project__content">{list.title}</h1>
               <h2 className="project__content">{list.article}</h2>
               <h3 className="project__content">{list.addInfo}</h3>
-              <img src={`${baseImgPath}${list.imgDetailPath}`} alt="Project" />
+              <Swiper
+                spaceBetween={0}
+                slidesPerView={1}
+                loop={true}
+                navigation={true}
+                pagination={{ clickable: true }}
+                className="mySwiper"
+              >
+                <SwiperSlide>
+                  <img
+                    src={`${baseImgPath}${list.imgDetailPath}`}
+                    alt="Project"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={`${baseImgPath}${list.imgDetailPath}`}
+                    alt="Project"
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src={`${baseImgPath}${list.imgDetailPath}`}
+                    alt="Project"
+                  />
+                </SwiperSlide>
+              </Swiper>
+
               <p className="project__content">Technology: {list.technology}</p>
               <div className="detailLink__wrapper">
                 <div className="project__content">
