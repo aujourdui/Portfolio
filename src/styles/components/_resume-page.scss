@@ -1,9 +1,10 @@
 .resume {
+  font-family: "Lato", sans-serif;
   margin: 0 0 0 3%;
   display: flex;
   h1,
   h2 {
-    margin: 1.5rem 0 1rem 0;
+    margin: 2rem 0 1rem 0;
   }
   p {
     margin: 0;
@@ -13,14 +14,18 @@
   }
 }
 
+.background-container-first {
+  width: 50vw;
+}
+
 @media (max-width: 45rem) {
   .resume {
     display: block;
   }
-}
 
-.background-container-first {
-  width: 50vw;
+  .background-container-first {
+    width: 100vw;
+  }
 }
 
 .soft-title {
@@ -43,7 +48,7 @@
 }
 
 .technical-skills {
-  margin-bottom: 2.2rem;
+  margin-bottom: 3.5rem;
   span {
     padding: 5px;
     margin: 5px;
