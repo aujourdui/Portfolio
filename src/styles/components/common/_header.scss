@@ -34,8 +34,9 @@ a {
 
 @media (max-width: $desktop-breakpoint) {
   .header-links {
+    font-size: 1.2rem;
     padding: 0;
-    margin: 0 2rem;
+    margin: 0 $m-size;
   }
   .home-link {
     margin: 0;

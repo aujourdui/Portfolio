@@ -1,3 +1,9 @@
 .title {
-  color: #3d550c;
+  color: $dull-green;
+}
+
+@media (max-width: $desktop-breakpoint) {
+  .title {
+    font-size: $l-size;
+  }
 }
