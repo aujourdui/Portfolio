@@ -638,6 +638,7 @@ var data = [{
   gitTitle: "portfolio",
   article: "This site",
   technology: "HTML, scss, React.js, firebase",
+  app: "https://portfolio-2bb32.web.app/",
   appName: "App",
   imgPath: "portfolio-top.png",
   imgDetailPathA: "portfolio-top-detail.png",
