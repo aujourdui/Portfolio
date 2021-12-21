@@ -77,7 +77,23 @@ const data = [
   },
 ];
 
-export const skillList = [
+export const resumeDataList = [
+  {
+    name: "Kyosuke Ito",
+    intro: "I'm a front-end developer in Vancouver",
+    background:
+      "I have a strong communication skills because I had been a sales person for 6years.Moreover, I have a great passion and skills to make web applications and sites to help people more convenient and enrich their lives.",
+    education: [
+      "Bachelor of Liberal Arts, YOKOHAMA NATIONAL UNIVERSITY JAPAN (Apr 2009 - Mar 2014)",
+      "Web development, CICCC - Cornerstone International Community College of Canada (Sep 2021 - present)",
+    ],
+    qualifications: [
+      "The Complete 2021 Web Development Bootcamp(Certificate on Udemy, Sep 2021)",
+      "The Complete React Developer Course (W/ Hooks and Redux) (Certificate on Udemy, Oct 2021)",
+      "Next.js & React - The Complete Guide (incl. Two Paths1) (Certificate on Udemy, Nov 2021)",
+      "Understanding TypeScript 2021 Edition (Certificate on Udemy, Nov 2021)",
+    ],
+  },
   {
     softSkillList: [
       "Leadership",
