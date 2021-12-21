@@ -1,4 +1,3 @@
-// import React, { useRef, useState } from "react";
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 
@@ -13,7 +12,6 @@ import "swiper/components/scrollbar/scrollbar.scss";
 
 import SwiperCore, { EffectFlip, Navigation, Pagination } from "swiper";
 
-// install Swiper modules
 SwiperCore.use([EffectFlip, Navigation, Pagination]);
 
 const ProjectDetail = ({ data }) => {

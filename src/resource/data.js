@@ -130,4 +130,14 @@ export const resumeDataList = [
   },
 ];
 
+export const contactDataList = [
+  {
+    phone: "(236)833-8229",
+    email: "kyosuke0215@gmail.com",
+    github: "https://github.com/aujourdui?tab=repositories",
+    linkedIn: "https://www.linkedin.com/in/kyosuke-ito-506090a8/",
+    medium: "https://medium.com/@kyosuke0215",
+  },
+];
+
 export default data;
