@@ -77,4 +77,14 @@ const data = [
   },
 ];
 
+export const skillList = [
+  {
+    softSkillList: ["Leadership", "Collaboration"],
+    technicalSkillList: ["React", "Node.js"],
+  },
+];
+
+// const softSkillList = ["Leadership", "Collaboration"];
+// const technicalSkillList = ["React", "Node.js"];
+
 export default data;
