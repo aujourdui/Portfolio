@@ -649,7 +649,7 @@ var data = [{
   gitTitle: "cats-community",
   article: "This app is for people loving cats",
   technology: "HTML, scss, React.js, firebase, Material UI",
-  app: "https://cats-community.firebaseapp.com/",
+  app: "https://cats-community.web.app/",
   appName: "App",
   imgPath: "cats' community-top.png",
   imgDetailPathA: "cats' community-top-detail.png",
