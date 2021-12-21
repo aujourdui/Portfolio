@@ -9,7 +9,11 @@ const ProjectItem = ({ data }) => {
         <div className="project-item__wrapper" key={list.id}>
           <Link className="project-link__wrapper" to={`/project/${list.title}`}>
             {list.title}
-            <img src={`${baseImgPath}${list.imgPath}`} alt="Project" />
+            <img
+              className="project-image"
+              src={`${baseImgPath}${list.imgPath}`}
+              alt="Project"
+            />
           </Link>
         </div>
       ))}

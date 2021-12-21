@@ -3,7 +3,7 @@ import { contactDataList } from "../../resource/data";
 
 const Footer = () => (
   <div className="footer">
-    <h1 className="footer-title">Contact</h1>
+    <h2 className="footer-title">Contact</h2>
     <div className="footer-contact">{contactDataList[0].phone}</div>
     <div className="footer-contact" id="footer-email">
       {contactDataList[0].email}

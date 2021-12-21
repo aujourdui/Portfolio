@@ -1,25 +1,25 @@
 .projectDetail__container {
   text-align: center;
-  background-color: rgba(30, 130, 76, 0.8);
+  background-color: $transparent-green;
   color: white;
 }
 
 .projectDetail__wrapper {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   h1 {
-    padding-top: 1rem;
+    padding-top: $s-size;
     margin: 0;
-    font-size: 5rem;
+    font-size: $xxL-size;
   }
   h2 {
-    font-size: 4rem;
+    font-size: $xl-size;
   }
   h3 {
-    font-size: 3rem;
+    font-size: $l-size;
   }
   p,
   a {
-    font-size: 2rem;
+    font-size: $m-size;
   }
   p {
     margin-bottom: 0;
@@ -27,16 +27,16 @@
 }
 
 .project__content {
-  margin: 1rem;
+  margin: $s-size;
   a {
-    padding: 0.3rem 1rem;
-    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0.3rem $s-size;
+    background-color: $transparent-white;
     border-radius: 3px;
     color: white;
   }
 }
 
-@media (max-width: 45rem) {
+@media (max-width: $desktop-breakpoint) {
   .slide-image {
     width: 90%;
     height: 90%;
@@ -44,17 +44,17 @@
   .projectDetail__wrapper {
     padding: 8rem 0;
     h1 {
-      font-size: 4rem;
+      font-size: $xl-size;
     }
     h2 {
-      font-size: 3rem;
+      font-size: $l-size;
     }
     h3 {
-      font-size: 2rem;
+      font-size: $m-size;
     }
     p,
     a {
-      font-size: 2rem;
+      font-size: $m-size;
     }
     p {
       margin-bottom: 0;
@@ -68,12 +68,12 @@
 }
 
 .backButton__container {
-  padding: 1rem 0;
+  padding: $s-size 0;
   padding-bottom: 2rem;
 }
 
 .back-button {
-  padding: 0.2rem 1rem;
+  padding: 0.2rem $s-size;
   border: 1px solid white;
   border-radius: 3px;
   color: white;
