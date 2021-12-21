@@ -1,5 +1,5 @@
 import React from "react";
-import { resumeDataList } from "../resource/data";
+import { resumeDataList } from "../../resource/data";
 
 const ResumePage = () => {
   return (

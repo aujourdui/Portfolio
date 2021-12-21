@@ -1,10 +1,10 @@
 @import "./base/settings";
 @import "./base/base";
-@import "./components/header";
-@import "./components/logo";
-@import "./components/home-page";
+@import "./components/common/header";
+@import "./components/common/logo";
+@import "./components/pages/home-page";
 @import "./components/projects/project-container";
 @import "./components/projects/project-item";
 @import "./components/projects/project-detail";
-@import "./components/resume-page";
-@import "./components/footer";
+@import "./components/pages/resume-page";
+@import "./components/common/footer";
