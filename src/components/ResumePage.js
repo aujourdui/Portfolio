@@ -1,4 +1,8 @@
 import React from "react";
+import { skillList } from "../resource/data";
+
+console.log(skillList);
+console.log(skillList[0].softSkillList.map((list) => list));
 
 const ResumePage = () => {
   return (
@@ -22,7 +26,12 @@ const ResumePage = () => {
           <h1>Skills for web-development</h1>
           <h2 className="soft-title">Soft skills</h2>
           <div className="soft-skills">
-            <span>Leadership</span>
+            {skillList[0].softSkillList.map((list, index) => (
+              <div key={index}>
+                <span>{list}</span>
+              </div>
+            ))}
+            {/* <span>Leadership</span>
             <span>Collaboration</span>
             <span>Communication</span>
             <span>Critical Thinking</span>
@@ -30,11 +39,16 @@ const ResumePage = () => {
             <span>Organization Skills</span>
             <span>Enthusiasm</span>
             <span>Work Ehic</span>
-            <span>Problem Solving</span>
+            <span>Problem Solving</span> */}
           </div>
           <h2 className="technical-title">Technical skills</h2>
           <div className="technical-skills">
-            <span>React</span>
+            {skillList[0].technicalSkillList.map((list, index) => (
+              <div key={index}>
+                <span>{list}</span>
+              </div>
+            ))}
+            {/* <span>React</span>
             <span>Node.js</span>
             <span>Next.js</span>
             <span>Redux</span>
@@ -52,7 +66,7 @@ const ResumePage = () => {
             <span>Ensyme</span>
             <span>Vagrant</span>
             <span>Heroku</span>
-            <span>Vercel</span>
+            <span>Vercel</span> */}
           </div>
         </div>
       </div>

@@ -69,12 +69,12 @@ const ProjectDetail = ({ data }) => {
               <div className="detailLink__wrapper">
                 <div className="project__content">
                   <a href={`${linkPathCode}${list.gitTitle}`}>
-                    <i class="fas fa-code"></i>Code
+                    <i className="fas fa-code"></i>Code
                   </a>
                 </div>
                 <div className="project__content">
                   <a href={list.app}>
-                    <i class="fas fa-desktop"></i>
+                    <i className="fas fa-desktop"></i>
                     {list.appName}
                   </a>
                 </div>
