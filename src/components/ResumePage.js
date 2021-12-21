@@ -1,8 +1,6 @@
 import React from "react";
 import { resumeDataList } from "../resource/data";
 
-console.log(resumeDataList[0].name);
-
 const ResumePage = () => {
   return (
     <div className="resume">
@@ -13,7 +11,11 @@ const ResumePage = () => {
         </div>
         <div className="background-wrapper">
           <h1>Background</h1>
-          <p className="comment">{resumeDataList[0].background}</p>
+          {resumeDataList[0].background.split("\n").map((str, index) => (
+            <p key={index} className="comment">
+              {str}
+            </p>
+          ))}
         </div>
         <div className="skills">
           <h1>Skills for web-development</h1>

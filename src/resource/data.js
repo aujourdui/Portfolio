@@ -82,7 +82,7 @@ export const resumeDataList = [
     name: "Kyosuke Ito",
     intro: "I'm a front-end developer in Vancouver",
     background:
-      "I have a strong communication skills because I had been a sales person for 6years.Moreover, I have a great passion and skills to make web applications and sites to help people more convenient and enrich their lives.",
+      "I have a strong communication skills because I had been a sales person for 6years.\nMoreover, I have a great passion and skills to make web applications and sites to help people more convenient and enrich their lives.",
     education: [
       "Bachelor of Liberal Arts, YOKOHAMA NATIONAL UNIVERSITY JAPAN (Apr 2009 - Mar 2014)",
       "Web development, CICCC - Cornerstone International Community College of Canada (Sep 2021 - present)",
