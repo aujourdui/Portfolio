@@ -79,12 +79,39 @@ const data = [
 
 export const skillList = [
   {
-    softSkillList: ["Leadership", "Collaboration"],
-    technicalSkillList: ["React", "Node.js"],
+    softSkillList: [
+      "Leadership",
+      "Collaboration",
+      "Communication",
+      "Critical Thinking",
+      "Creativity",
+      "Organization Skills",
+      "Enthusiasm",
+      "Work Ehic",
+      "Problem Solving",
+    ],
+    technicalSkillList: [
+      "React",
+      "Node.js",
+      "Next.js",
+      "Redux",
+      "Javascript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "scss",
+      "Github",
+      "firebase",
+      "MongoDB",
+      "MySQL",
+      "Webpack",
+      "Jest",
+      "Ensyme",
+      "Vagrant",
+      "Heroku",
+      "Vercel",
+    ],
   },
 ];
-
-// const softSkillList = ["Leadership", "Collaboration"];
-// const technicalSkillList = ["React", "Node.js"];
 
 export default data;

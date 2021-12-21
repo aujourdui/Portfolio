@@ -1,9 +1,6 @@
 import React from "react";
 import { skillList } from "../resource/data";
 
-console.log(skillList);
-console.log(skillList[0].softSkillList.map((list) => list));
-
 const ResumePage = () => {
   return (
     <div className="resume">
@@ -27,46 +24,14 @@ const ResumePage = () => {
           <h2 className="soft-title">Soft skills</h2>
           <div className="soft-skills">
             {skillList[0].softSkillList.map((list, index) => (
-              <div key={index}>
-                <span>{list}</span>
-              </div>
+              <span key={index}>{list}</span>
             ))}
-            {/* <span>Leadership</span>
-            <span>Collaboration</span>
-            <span>Communication</span>
-            <span>Critical Thinking</span>
-            <span>Creativity</span>
-            <span>Organization Skills</span>
-            <span>Enthusiasm</span>
-            <span>Work Ehic</span>
-            <span>Problem Solving</span> */}
           </div>
           <h2 className="technical-title">Technical skills</h2>
           <div className="technical-skills">
             {skillList[0].technicalSkillList.map((list, index) => (
-              <div key={index}>
-                <span>{list}</span>
-              </div>
+              <span key={index}>{list}</span>
             ))}
-            {/* <span>React</span>
-            <span>Node.js</span>
-            <span>Next.js</span>
-            <span>Redux</span>
-            <span>JavaScript</span>
-            <span>TypeScript</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>scss</span>
-            <span>Github</span>
-            <span>firebase</span>
-            <span>MongoDB</span>
-            <span>MySQL</span>
-            <span>Webpack</span>
-            <span>Jest</span>
-            <span>Ensyme</span>
-            <span>Vagrant</span>
-            <span>Heroku</span>
-            <span>Vercel</span> */}
           </div>
         </div>
       </div>
