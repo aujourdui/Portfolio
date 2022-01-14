@@ -36,6 +36,10 @@
   }
 }
 
+.slide-image {
+  box-shadow: -1px 4px 10px -6px rgba(0, 0, 0, 0.7);
+}
+
 @media (max-width: $desktop-breakpoint) {
   .slide-image {
     width: 90%;
