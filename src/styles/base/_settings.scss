@@ -1,4 +1,4 @@
-// Colors
+// colors
 $cream: #fbe698;
 $dull-yellowGreen: #bacc81;
 $dull-green: #3d550c;
@@ -14,10 +14,13 @@ $faint-blue: #b1d4e0;
 $transparent-green: rgba(30, 130, 76, 0.8);
 $transparent-white: rgba(255, 255, 255, 0.2);
 
-// Sizing
+// sizing
 $s-size: 1rem;
 $m-size: 2rem;
 $l-size: 3rem;
 $xl-size: 4rem;
 $xxL-size: 5rem;
-$desktop-breakpoint: 45rem;
+
+// media query
+$tablet-breakpoint: 64rem;
+$mobile-breakpoint: 48rem;

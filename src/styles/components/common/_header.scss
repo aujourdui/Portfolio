@@ -32,7 +32,21 @@ a {
   margin: 0 0 0 7%;
 }
 
-@media (max-width: $desktop-breakpoint) {
+@media (min-width: $mobile-breakpoint) and (max-width: $tablet-breakpoint) {
+  .home-link {
+    margin: 0;
+    padding-right: 7%;
+  }
+  .project-link {
+    margin: 0;
+    padding-right: 7%;
+  }
+  .resume-link {
+    margin: 0;
+  }
+}
+
+@media (max-width: $mobile-breakpoint) {
   .header-links {
     font-size: 1.2rem;
     padding: 0;
