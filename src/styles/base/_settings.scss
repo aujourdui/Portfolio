@@ -1,8 +1,11 @@
-// Colors
+// colors
 $cream: #fbe698;
 $dull-yellowGreen: #bacc81;
 $dull-green: #3d550c;
 $blue-green: #2e765e;
+$bright-blue-green: #00f3ffa0;
+$dull-blue-green: #00f3ff60;
+$deep-blue: #0028b960;
 $light-white: rgba(255, 255, 255, 0.6);
 $dull-red: #821d30;
 $dull-blue: #0c2d48;
@@ -11,10 +14,13 @@ $faint-blue: #b1d4e0;
 $transparent-green: rgba(30, 130, 76, 0.8);
 $transparent-white: rgba(255, 255, 255, 0.2);
 
-// Sizing
+// sizing
 $s-size: 1rem;
 $m-size: 2rem;
 $l-size: 3rem;
 $xl-size: 4rem;
 $xxL-size: 5rem;
-$desktop-breakpoint: 45rem;
+
+// media query
+$tablet-breakpoint: 64rem;
+$mobile-breakpoint: 48rem;
