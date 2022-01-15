@@ -50,12 +50,15 @@
         $dull-blue-green 60%,
         $bright-blue-green
       ),
-      url(https://source.unsplash.com/1500x600/?vancouver);
+      url(https://source.unsplash.com/1500x800/?vancouver);
   }
 }
 
 // tablet size
 @media (min-width: $mobile-breakpoint) and (max-width: $tablet-breakpoint) {
+  .introduce__container {
+    height: 85vh;
+  }
   .image-vancouver {
     animation: move 20s linear forwards infinite;
     background-image: linear-gradient(
@@ -65,12 +68,16 @@
         $dull-blue-green 60%,
         $bright-blue-green
       ),
-      url(https://source.unsplash.com/1200x700/?vancouver);
+      url(https://source.unsplash.com/1200x1250/?vancouver);
+    height: 85vh;
   }
 }
 
 // mobile size
 @media (max-width: $mobile-breakpoint) {
+  .introduce__container {
+    height: 75vh;
+  }
   .image-vancouver {
     animation: move 20s linear forwards infinite;
     background-image: linear-gradient(
@@ -80,6 +87,7 @@
         $dull-blue-green 60%,
         $bright-blue-green
       ),
-      url(https://source.unsplash.com/800x800/?vancouver);
+      url(https://source.unsplash.com/600x1100/?vancouver);
+    height: 75vh;
   }
 }
