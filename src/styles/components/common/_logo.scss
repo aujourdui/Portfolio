@@ -1,9 +1,4 @@
 .title {
   color: $dull-green;
-}
-
-@media (max-width: $mobile-breakpoint) {
-  .title {
-    font-size: $l-size;
-  }
+  margin-top: 3.5rem;
 }

@@ -3,7 +3,7 @@
   top: 0;
   height: 6rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0 3%;
   background-color: $dull-yellowGreen;
@@ -17,19 +17,15 @@ a {
 }
 
 .header-links {
-  padding: 0 3%;
+  display: flex;
 }
 
 .home-link {
-  margin: 0 7%;
+  margin: 0 20rem;
 }
 
 .project-link {
-  margin: 0 7%;
-}
-
-.resume-link {
-  margin: 0 0 0 7%;
+  margin-right: 20rem;
 }
 
 @media (min-width: $mobile-breakpoint) and (max-width: $tablet-breakpoint) {
