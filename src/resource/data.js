@@ -81,12 +81,15 @@ const data = [
 export const resumeDataList = [
   {
     name: "Kyosuke Ito",
-    intro: "I'm a front-end developer in Vancouver",
+    intro: "I'm a Front-end developer in Vancouver",
     background:
       "I have a strong communication skills because I had been a sales person for 6years.\nMoreover, I have a great passion and skills to make web applications and sites to help people more convenient and enrich their lives.",
+    workExperience: [
+      "Front-end Developer - Desafios Co. Ltd - (Jan 2022 - present)",
+    ],
     education: [
+      "Web development, CICCC - Cornerstone International Community College of Canada - (Sep 2021 - present)",
       "Bachelor of Liberal Arts, YOKOHAMA NATIONAL UNIVERSITY JAPAN (Apr 2009 - Mar 2014)",
-      "Web development, CICCC - Cornerstone International Community College of Canada (Sep 2021 - present)",
     ],
     qualifications: [
       "The Complete 2021 Web Development Bootcamp(Certificate on Udemy, Sep 2021)",
