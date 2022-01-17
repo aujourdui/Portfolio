@@ -35,6 +35,14 @@ const ResumePage = () => {
       </div>
       <div className="background-container-second">
         <div>
+          <h1>Work Experience</h1>
+          <ul>
+            {resumeDataList[0].workExperience.map((list, index) => (
+              <li key={index}>{list}</li>
+            ))}
+          </ul>
+        </div>
+        <div>
           <h1>Education</h1>
           <ul>
             {resumeDataList[0].education.map((list, index) => (
