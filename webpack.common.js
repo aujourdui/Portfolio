@@ -1,8 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  mode: "development",
-  entry: "./src/app.js",
+  entry: "./src/app.tsx",
   output: {
     path: path.join(__dirname, "public"),
     filename: "bundle.js",
@@ -15,9 +14,12 @@ module.exports = {
   module: {
     rules: [
       {
-        loader: "babel-loader",
-        test: /\.js$/,
+        test: /\.tsx?$/,
+        loader: "ts-loader",
         exclude: /node_modules/,
+        options: {
+          configFile: path.resolve(__dirname, "./tsconfig.json"),
+        },
       },
       {
         test: /\.s?css$/,
@@ -25,11 +27,9 @@ module.exports = {
       },
     ],
   },
-  devtool: "cheap-source-map",
-  devServer: {
-    static: {
-      directory: path.join(__dirname, "public"),
-    },
-    historyApiFallback: true,
+  resolve: {
+    modules: ["node_modules"],
+    extensions: [".ts", ".tsx", ".js", "jsx", "json"],
   },
+  target: ["web", "es5"],
 };
