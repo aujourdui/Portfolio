@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  entry: "./src/app.js",
+  entry: "./src/app.tsx",
   output: {
     path: path.join(__dirname, "public"),
     filename: "bundle.js",
@@ -20,6 +20,13 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
+        test: /\.tsx?$/,
+        loader: "ts-loader",
+        options: {
+          configFile: path.resolve(__dirname, "./tsconfig.json"),
+        },
+      },
+      {
         test: /\.s?css$/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
@@ -32,4 +39,9 @@ module.exports = {
     },
     historyApiFallback: true,
   },
+  resolve: {
+    modules: ["node_modules"],
+    extensions: [".ts", ".tsx", ".js", "jsx", "json"],
+  },
+  target: ["web", "es5"],
 };
