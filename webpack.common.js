@@ -1,7 +1,6 @@
 const path = require("path");
 
 module.exports = {
-  mode: "development",
   entry: "./src/app.tsx",
   output: {
     path: path.join(__dirname, "public"),
@@ -27,13 +26,6 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"],
       },
     ],
-  },
-  devtool: "cheap-source-map",
-  devServer: {
-    static: {
-      directory: path.join(__dirname, "public"),
-    },
-    historyApiFallback: true,
   },
   resolve: {
     modules: ["node_modules"],
