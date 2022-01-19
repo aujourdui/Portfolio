@@ -3,6 +3,12 @@
   cursor: none;
 }
 
+a {
+  text-decoration: none;
+  border: none;
+  color: $blue-green;
+}
+
 html {
   font-size: 62.5%;
 }
