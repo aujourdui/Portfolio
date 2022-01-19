@@ -107,7 +107,7 @@ export const resumeDataList = [
       "Creativity",
       "Organization Skills",
       "Enthusiasm",
-      "Work Ehic",
+      "Work Ethic",
       "Problem Solving",
     ],
     technicalSkillList: [

@@ -7,12 +7,14 @@ import ProjectContainer from "../components/project/ProjectContainer";
 import ProjectDetail from "../components/project/ProjectDetail";
 import ResumePage from "../components/pages/ResumePage";
 import NotFoundPage from "../components/pages/NotFoundPage";
+import Cursor from "../components/feature/Cursor";
 import data from "../resource/data";
 
 const AppRouter = () => {
   return (
     <BrowserRouter>
-      <div>
+      <>
+        <Cursor />
         <Header />
         <Switch>
           <Route path="/" component={HomePage} exact={true} />
@@ -26,7 +28,7 @@ const AppRouter = () => {
           <Route component={NotFoundPage} />
         </Switch>
         <Footer />
-      </div>
+      </>
     </BrowserRouter>
   );
 };

@@ -4,13 +4,13 @@ import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
 
 const Header = () => (
-  <header>
-    <div className="header">
-      <div>
-        <Link to="/">
-          <Logo />
-        </Link>
-      </div>
+  <header className="header">
+    <div className="logo">
+      <Link to="/">
+        <Logo />
+      </Link>
+    </div>
+    <div>
       <div className="header-links">
         <div className="home-link">
           <NavLink to="/" activeClassName="is-active" exact={true}>
