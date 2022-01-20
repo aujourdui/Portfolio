@@ -26,10 +26,6 @@ body {
   overflow-y: scroll;
 }
 
-button:disabled {
-  cursor: default;
-}
-
 .is-active {
   font-weight: bold;
 }
