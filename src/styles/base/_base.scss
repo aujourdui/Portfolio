@@ -26,10 +26,6 @@ body {
   overflow-y: scroll;
 }
 
-button {
-  cursor: pointer;
-}
-
 button:disabled {
   cursor: default;
 }
