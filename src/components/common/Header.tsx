@@ -21,19 +21,34 @@ const Header = () => {
       <div>
         <div className="header-links">
           <div className="home-link">
-            <NavLink to="/" activeClassName="is-active" exact={true}>
-              Home
-            </NavLink>
+            <div
+              onMouseEnter={() => cursorChangeHandler("hovered")}
+              onMouseLeave={() => cursorChangeHandler("")}
+            >
+              <NavLink to="/" activeClassName="is-active" exact={true}>
+                Home
+              </NavLink>
+            </div>
           </div>
           <div className="project-link">
-            <NavLink to="/project" activeClassName="is-active" exact={true}>
-              Projects
-            </NavLink>
+            <div
+              onMouseEnter={() => cursorChangeHandler("hovered")}
+              onMouseLeave={() => cursorChangeHandler("")}
+            >
+              <NavLink to="/project" activeClassName="is-active" exact={true}>
+                Projects
+              </NavLink>
+            </div>
           </div>
           <div className="resume-link">
-            <NavLink to="/resume" activeClassName="is-active" exact={true}>
-              Resume
-            </NavLink>
+            <div
+              onMouseEnter={() => cursorChangeHandler("hovered")}
+              onMouseLeave={() => cursorChangeHandler("")}
+            >
+              <NavLink to="/resume" activeClassName="is-active" exact={true}>
+                Resume
+              </NavLink>
+            </div>
           </div>
         </div>
       </div>
