@@ -1,11 +1,11 @@
 // colors
-$cream: #fbe698;
-$dull-yellowGreen: #bacc81;
 $dull-green: #3d550c;
 $blue-green: #2e765e;
+$light-blue-green: #24a19c;
 $bright-blue-green: #00f3ffa0;
 $dull-blue-green: #00f3ff60;
 $deep-blue: #0028b960;
+$bright-blue: #516beb;
 $light-white: rgba(255, 255, 255, 0.6);
 $dull-red: #821d30;
 $dull-blue: #0c2d48;
@@ -24,3 +24,10 @@ $xxL-size: 5rem;
 // media query
 $tablet-breakpoint: 64rem;
 $mobile-breakpoint: 48rem;
+
+// mixin
+@mixin flexBox($justifyContent) {
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: center;
+}
