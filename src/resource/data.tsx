@@ -43,7 +43,7 @@ const data = [
     title: "MovieAPI App",
     gitTitle: "movieAPI-app",
     article: "This app is for searching movies info",
-    technology: "HTML, CSS, JavaScript, Bootstrap, Heroku",
+    technology: "HTML, CSS, TypeScript, Bootstrap, Heroku",
     app: "https://movie-api-app930812.herokuapp.com/",
     appName: "App",
     imgPath: "movie app-top.png",
@@ -138,7 +138,7 @@ export const contactDataList = [
   {
     phone: "(236)833-8229",
     email: "kyosuke0215@gmail.com",
-    github: "https://github.com/aujourdui?tab=repositories",
+    github: "https://github.com/aujourdui",
     linkedIn: "https://www.linkedin.com/in/kyosuke-ito-506090a8/",
     medium: "https://medium.com/@kyosuke0215",
   },
