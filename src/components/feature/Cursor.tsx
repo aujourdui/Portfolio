@@ -1,4 +1,5 @@
-import React, { useContext } from "react";
+import React from "react";
+import { useContext } from "react";
 import useMousePosition from "./useMousePosition";
 import { MouseContext } from "../../context/mouse-context";
 
@@ -9,11 +10,11 @@ const Cursor = () => {
   return (
     <>
       <div
+        className={`ring ${cursorType}`}
         style={{ left: `${x}px`, top: `${y}px` }}
-        className={"ring " + cursorType}
       ></div>
       <div
-        className={"dot " + cursorType}
+        className={`dot ${cursorType}`}
         style={{ left: `${x}px`, top: `${y}px` }}
       ></div>
     </>
