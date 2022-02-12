@@ -24,6 +24,10 @@
   width: 50vw;
 }
 
+.background-container-second {
+  margin-left: 2rem;
+}
+
 @media (max-width: $mobile-breakpoint) {
   .resume {
     display: block;
@@ -40,6 +44,9 @@
 
   .background-container-first {
     width: 90vw;
+  }
+  .background-container-second {
+    margin: 0;
   }
 }
 

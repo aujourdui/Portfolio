@@ -40,16 +40,17 @@ const data = [
   },
   {
     id: 4,
-    title: "MovieAPI App",
-    gitTitle: "movieAPI-app",
-    article: "This app is for searching movies info",
-    technology: "HTML, CSS, TypeScript, Bootstrap, Heroku",
-    app: "https://movie-api-app930812.herokuapp.com/",
+    title: "Burger Heaven",
+    gitTitle: "burger-delivery",
+    article: "E-commerce site to order burgers",
+    technology:
+      "HTML, TailwindCSS, React.js, Redux, TypeScript, Material UI, Netlify",
+    app: "https://burger-heaven-5b683.netlify.app/",
     appName: "App",
-    imgPath: "movie app-top.png",
-    imgDetailPathA: "movie app-top-detail.png",
-    imgDetailPathB: "movie app-hover-detail.png",
-    imgDetailPathC: "movie app-detailpage-detail.png",
+    imgPath: "burger heaven-top.png",
+    imgDetailPathA: "burger heaven-detail.png",
+    imgDetailPathB: "burger heaven-detail2.png",
+    imgDetailPathC: "burger heaven-sm.png",
   },
   {
     id: 5,
@@ -64,6 +65,19 @@ const data = [
   },
   {
     id: 6,
+    title: "MovieAPI App",
+    gitTitle: "movieAPI-app",
+    article: "This app is for searching movies info",
+    technology: "HTML, CSS, TypeScript, Bootstrap, Heroku",
+    app: "https://movie-api-app930812.herokuapp.com/",
+    appName: "App",
+    imgPath: "movie app-top.png",
+    imgDetailPathA: "movie app-top-detail.png",
+    imgDetailPathB: "movie app-hover-detail.png",
+    imgDetailPathC: "movie app-detailpage-detail.png",
+  },
+  {
+    id: 7,
     title: "Country Explorer(group project)",
     gitTitle: "country-explorer",
     article: "This app is for searching any country info",
@@ -85,7 +99,8 @@ export const resumeDataList = [
     background:
       "I have a strong communication skills because I had been a sales person for 6years.\nMoreover, I have a great passion and skills to make web applications and sites to help people more convenient and enrich their lives.",
     workExperience: [
-      "Front-end Developer - Desafios Co. Ltd - (Jan 2022 - present)",
+      "Front-end Developer - Desafios Co. Ltd - (2022 - present)",
+      "Sales representative - Santen Inc - (2014-2020)",
     ],
     education: [
       "Web development, CICCC - Cornerstone International Community College of Canada - (Sep 2021 - present)",
@@ -120,6 +135,7 @@ export const resumeDataList = [
       "HTML",
       "CSS",
       "SCSS",
+      "TailwindCSS",
       "Github",
       "Firebase",
       "MongoDB",
@@ -130,6 +146,7 @@ export const resumeDataList = [
       "Vagrant",
       "Heroku",
       "Vercel",
+      "Netlify",
     ],
   },
 ];
