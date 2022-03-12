@@ -42,9 +42,9 @@ const data = [
     id: 4,
     title: "Burger Heaven",
     gitTitle: "burger-delivery",
-    article: "E-commerce site to order burgers",
+    article: "E-commerce MERN stack app to order burgers",
     technology:
-      "HTML, TailwindCSS, React.js, Redux, TypeScript, Material UI, Netlify",
+      "HTML, TailwindCSS, React.js, Redux, TypeScript, Node.js, Express, MongoDB, Material UI, Netlify",
     app: "https://burger-heaven-5b683.netlify.app/",
     appName: "App",
     imgPath: "burger heaven-top.png",
