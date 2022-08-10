@@ -90,6 +90,21 @@ const data = [
     imgDetailPathB: "country explorer-dark-detail.png",
     imgDetailPathC: "country explorer-detailpage-detail.png",
   },
+  {
+    id: 8,
+    title: "Juno(group project)",
+    gitTitle: "juno",
+    article: "This app is Online Wedding Invitations App",
+    addInfo: "my role: Front-end guest part",
+    technology:
+      "React, TailwindCSS, Redux-toolkit, Typescript, Lambda, Dynamodb, Swagger, Aws-apigateway, Serverless-framework, Figma",
+    app: "https://juno-wedding.vercel.app/admin",
+    appName: "App",
+    imgPath: "juno top.png",
+    imgDetailPathA: "juno detail1.png",
+    imgDetailPathB: "juno detail2.png",
+    imgDetailPathC: "juno detail3.png",
+  },
 ];
 
 export const resumeDataList = [
@@ -99,18 +114,13 @@ export const resumeDataList = [
     background:
       "I have a strong communication skills because I had been a sales person for 6years.\nMoreover, I have a great passion and skills to make web applications and sites to help people more convenient and enrich their lives.",
     workExperience: [
-      "Front-end Developer - Desafios Co. Ltd - (2022 - present)",
+      "Front-end Developer - Nareban Co. Ltd - (Apr 2022 - present )",
+      "Front-end Developer - Desafios Co. Ltd - (Jan 2022 - Apr 2022 )",
       "Sales representative - Santen Inc - (2014-2020)",
     ],
     education: [
       "Web development, CICCC - Cornerstone International Community College of Canada - (Sep 2021 - present)",
       "Bachelor of Liberal Arts, YOKOHAMA NATIONAL UNIVERSITY JAPAN (Apr 2009 - Mar 2014)",
-    ],
-    qualifications: [
-      "The Complete 2021 Web Development Bootcamp(Certificate on Udemy, Sep 2021)",
-      "The Complete React Developer Course (W/ Hooks and Redux) (Certificate on Udemy, Oct 2021)",
-      "Next.js & React - The Complete Guide (incl. Two Paths1) (Certificate on Udemy, Nov 2021)",
-      "Understanding TypeScript 2021 Edition (Certificate on Udemy, Nov 2021)",
     ],
   },
   {
@@ -132,6 +142,8 @@ export const resumeDataList = [
       "Redux",
       "Javascript",
       "TypeScript",
+      "Python",
+      "Django",
       "HTML",
       "CSS",
       "SCSS",

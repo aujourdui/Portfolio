@@ -50,14 +50,6 @@ const ResumePage = () => {
             ))}
           </ul>
         </div>
-        <div>
-          <h1>Qualifications/Certificates</h1>
-          <ul>
-            {resumeDataList[0].qualifications.map((list, index) => (
-              <li key={index}>{list}</li>
-            ))}
-          </ul>
-        </div>
       </div>
     </div>
   );
