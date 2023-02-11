@@ -115,8 +115,8 @@ export const resumeDataList = [
       "I have a strong communication skills because I had been a sales person for 6years.\nMoreover, I have a great passion and skills to make web applications and sites to help people more convenient and enrich their lives.",
     workExperience: [
       "Front-end Developer - Idealump inc. - (Apr 2022 - present )",
-      "Front-end Developer - Nareban Co. Ltd - (Apr 2022 - Sep 2022 )",
-      "Front-end Developer - Desafios Co. Ltd - (Jan 2022 - Apr 2022 )",
+      "Front-end Developer - Nareban Co. Ltd - (Apr 2021 - Mar 2022 )",
+      "Front-end Developer - Desafios Co. Ltd - (Feb 2022 - Mar 2022 )",
       "Sales representative - Santen Inc - (2014-2020)",
     ],
     education: [
@@ -141,6 +141,8 @@ export const resumeDataList = [
       "Node.js",
       "Next.js",
       "Redux",
+      "Vue.js",
+      "Pinia",
       "Javascript",
       "TypeScript",
       "Python",
@@ -148,6 +150,7 @@ export const resumeDataList = [
       "HTML",
       "CSS",
       "SCSS",
+      "CSS module",
       "TailwindCSS",
       "Github",
       "Firebase",
