@@ -38,20 +38,20 @@ const data = [
   //   imgDetailPathB: "weather app-search-detail.png",
   //   imgDetailPathC: "weather app-daily-detail.png",
   // },
-  {
-    id: 3,
-    title: "Burger Heaven",
-    gitTitle: "burger-delivery",
-    article: "E-commerce MERN stack app to order burgers",
-    technology:
-      "HTML, TailwindCSS, React.js, Redux, TypeScript, Node.js, Express, MongoDB, Material UI, Netlify",
-    app: "https://burger-heaven-5b683.netlify.app/",
-    appName: "App",
-    imgPath: "burger heaven-top.png",
-    imgDetailPathA: "burger heaven-detail.png",
-    imgDetailPathB: "burger heaven-detail2.png",
-    imgDetailPathC: "burger heaven-sm.png",
-  },
+  // {
+  //   id: 3,
+  //   title: "Burger Heaven",
+  //   gitTitle: "burger-delivery",
+  //   article: "E-commerce MERN stack app to order burgers",
+  //   technology:
+  //     "HTML, TailwindCSS, React.js, Redux, TypeScript, Node.js, Express, MongoDB, Material UI, Netlify",
+  //   app: "https://burger-heaven-5b683.netlify.app/",
+  //   appName: "App",
+  //   imgPath: "burger heaven-top.png",
+  //   imgDetailPathA: "burger heaven-detail.png",
+  //   imgDetailPathB: "burger heaven-detail2.png",
+  //   imgDetailPathC: "burger heaven-sm.png",
+  // },
   // {
   //   id: 6,
   //   title: "MovieAPI App",
@@ -110,17 +110,18 @@ const data = [
 export const resumeDataList = [
   {
     name: "Kyosuke Ito",
-    intro: "I'm a Front-end developer in Vancouver",
+    intro: "I'm a Software developer in Vancouver",
     background:
       "I have a strong communication skills because I had been a sales person for 6years.\nMoreover, I have a great passion and skills to make web applications and sites to help people more convenient and enrich their lives.",
     workExperience: [
-      "Front-end Developer - Idealump inc. - (Apr 2022 - present )",
-      "Front-end Developer - Nareban Co. Ltd - (Apr 2021 - Mar 2022 )",
-      "Front-end Developer - Desafios Co. Ltd - (Feb 2022 - Mar 2022 )",
+      "Software Developer - RevComm inc. - (Apr 2023 - present )",
+      "Software Developer - Idealump inc. - (Apr 2022 - present )",
+      "Software Developer - Nareban Co. Ltd - (Apr 2021 - Mar 2022 )",
+      "Software Developer - Desafios Co. Ltd - (Feb 2022 - Mar 2022 )",
       "Sales representative - Santen Inc - (2014-2020)",
     ],
     education: [
-      "Web development, CICCC - Cornerstone International Community College of Canada - (Sep 2021 - present)",
+      "Web development, CICCC - Cornerstone International Community College of Canada - (Sep 2021 - Aug 2023)",
       "Bachelor of Liberal Arts, YOKOHAMA NATIONAL UNIVERSITY JAPAN (Apr 2009 - Mar 2014)",
     ],
   },
